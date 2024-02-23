@@ -1,0 +1,48 @@
+nav {
+    margin: 100px;
+    display: flex;
+    justify-content: space-between;
+}
+nav ul li{
+    list-style-type: none;
+    display: inline;
+    padding: 20px; 
+}
+
+.container{
+    display: flex;
+    justify-content: center;  
+    
+}
+.container{
+    position: relative;
+}
+.overlay-image {
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 01;
+
+}
+.text1 {
+    color:white;
+    text-align: center;
+    margin-top: 50px;
+    position: relative;
+    z-index: 2;
+}
+.text2{
+    color:rgb(13, 223, 13);
+}
+.btn2{
+    color:black;
+    background-color: rgb(36, 184, 36);
+    display: flex;
+    text-align: center;
+    margin-left: 600px;
+    margin-right: 500px;
+    margin-top: 200px;
+    padding: 2%;
+    position: relative;
+    z-index: 2;
+}
